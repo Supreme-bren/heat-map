@@ -38,5 +38,5 @@ g{
     transform:translate(-50px,-230px)
 }
 .cell:hover{
-    fill: black
+    fill: black;
 }
