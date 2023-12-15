@@ -1,0 +1,39 @@
+html{
+    min-height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color:#E0E3f0;
+    background-color: #163d57;
+}
+svg {
+    padding: 10px;
+    background-color: rgb(118, 155, 155);
+    box-shadow: 0 3px 15px rgba(0 ,0, 0, 0.2);
+    border-radius: 5px;
+}
+g{
+    color: #E0E3f0;
+}
+#chart{
+    min-width: 600px;
+    min-height: 800px;
+    
+}
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: #E0E3f0;
+    font-size: 24px;
+    margin-bottom: 5px;
+    
+}
+#legend{
+    transform:translate(-50px,-230px)
+}
